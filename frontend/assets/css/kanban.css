@@ -1,0 +1,162 @@
+/*
+    Created on : 12/07/2019, 08:42:10
+    Author     : Sandro Alves Peres
+*/
+
+body {
+  padding-top: 13px;
+  background-color: #f7f7f7;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding: 25px;
+    padding-top: 30px;
+  }
+}
+
+.badge-num-cards {
+  background-color: #e6ef6b !important;
+  margin-left: 4px;
+  border: 1px solid #adbcde;
+  color: #1b6d85 !important;
+}
+.card-colunas {
+  margin-top: 10px;
+}
+.coluna > .panel-body {
+  padding: 6px;
+}
+.card {
+  margin-bottom: 0;
+  border-color: #a6c5da;
+  color: #64646f;
+  position: relative;
+}
+.card:not(:last-child) {
+  margin-bottom: 6px;
+}
+.card > .panel-body {
+  padding: 12px;
+  min-height: 95px;
+}
+.card > .panel-footer {
+  min-height: 41px;
+}
+.card h5 {
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.wrapper-professores {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+.wrapper-professores > .label {
+  background-color: #778f94;
+}
+
+.wrapper-professores > .label {
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+.label-num-aula,
+.label-ano {
+  position: absolute;
+  right: 2px;
+  -webkit-border-top-right-radius: 0;
+  -webkit-border-bottom-right-radius: 0;
+  -moz-border-radius-topright: 0;
+  -moz-border-radius-bottomright: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.label-num-aula {
+  top: 0;
+  font-size: 1.5em;
+}
+.label-ano {
+  top: 35px;
+}
+
+.icons {
+  display: inline-block;
+}
+
+.aulao,
+.aulao .panel-footer {
+  background-color: #f1f1be;
+}
+.aulao h5 {
+  color: #387b56;
+}
+.aulao h5::before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  background-color: #387b56;
+  display: inline-block;
+  margin-right: 3px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+}
+
+#form-card h5.aulao-title {
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #387b56;
+}
+
+#form-card h5.aulao-title::before {
+  color: #387b56;
+}
+#form-card h5.aulao-title::before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  background-color: #387b56;
+  display: inline-block;
+  margin-right: 3px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+}
+
+#form-card .label {
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+#form-card #data {
+  margin-right: 6px;
+}
+
+#form-card #professores .label,
+#form-card #materiais .label {
+  background-color: #778f94;
+}
+
+#form-card #professores,
+#form-card #materiais {
+  margin-top: 10px;
+}
+
+#form-card .modal-footer {
+  margin: 0 auto;
+}
+
+#form-card .modal-footer h3 {
+  margin: 0 !important;
+  float: left !important;
+}
+
+.mt-20 {
+  margin-top: 20px !important;
+}
+
+.mb-10 {
+  margin-bottom: 10px !important;
+}
